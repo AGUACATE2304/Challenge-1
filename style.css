@@ -66,7 +66,7 @@ footer {
 
 .titleTop {
     font-size: 50px;
-    color: #870deb;
+    color: rgb(173, 161, 161);
 }
 
 .bottom{
@@ -76,13 +76,13 @@ footer {
 }
 
 .left{
-    border-bottom: 1px grey solid;
+    border-bottom: 1px rgb(173, 161, 161);
     padding-right: 15px;
 }
 
 .right{
-    border-bottom: 1px grey solid;
-    border-left: 1px grey solid;
+    border-bottom: 1px rgb(173, 161, 161);
+    border-left: 1px rgb(173, 161, 161);
     width: 70%;
     padding-left: 15px;
 }
@@ -102,7 +102,7 @@ footer {
     font-style: italic;
     font-size: small;
     font-weight: bold;
-    background-color:rgba(48, 231, 72, 0.418);
+    background-color:rgb(173, 161, 161);
     border-radius: 8px;
     padding: 8px;
 }
