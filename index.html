@@ -6,49 +6,53 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
         <title>Alan Castillo</title>
     </head>
-    <body>
-        <header class="top">
-            <h1 class="titleTop">Welcome to My Blog</h1>
-            <nav class="titletop">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Categories</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+    <body class="wrapper">
+        <header class="header-top">
+            <h1 class="header-top__heading">Welcome to My Blog</h1>
+            <nav class="header-top__nav">
+                <ul class="nav_list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="bottom">
-            <section class="left">
+        <main class="mainMain">
+            <section class="mainSection">
                 <article>
-                    <h2 class="titlebot">Post Title 1</h2>
-                    <p class="comments">Published on September 12, 2023 by Jhon Dos</p>                    
+                    <h2 class="mainSection__h2">Post Title 1</h2>
+                    <p class="mainSection__comments">Published on September 12, 2023 by Jhon Dos</p>                    
                     <p>This is the content of the blog post...</p>
                     <p>More content goes here</p>
                 </article>
                 <article>
-                    <h2 class="titlebot">Post Title 2</h2>
-                    <p class="comments">Published on September 10, 2023 by Jane Smith</p>
+                    <h2 class="mainSection__heading2">Post Title 2</h2>
+                    <p class="mainSection__comments">Published on September 10, 2023 by Jane Smith</p>
                     <p>This is another blog post</p>
                     <p>More content goes here</p>  
                 </article>
             </section>
-            <aside class="right">
-                <section class="postr">
-                    <h3 class="titlebot2">Recent Posts</h3>
-                    <p>Post title 1</p>
-                    <p>Post title 2</p>
-                    <p>Post title 3</p>
+            <aside class="mainAside">
+                <section>
+                    <h2 class="mainAside__heading2">Recent Posts</h2>
+                    <ul class="nav_list">
+                        <li>Post title 1</li>
+                        <li>Post title 2</li>
+                        <li>Post title 3</li>
+                    </ul>
                 </section>
-                <section class="cat">
-                    <h3 class="titlebot2">Categories</h3>
-                    <p>Category 1</p>
-                    <p>Category 2</p>
-                    <p>Category 3</p>
+                <section>
+                    <h2 class="mainAside__heading2">Categories</h2>
+                    <ul class="nav_list">
+                        <li>Category 1</li>
+                        <li>Category 2</li>
+                        <li>Category 3</li>
+                    </ul>
                 </section>
             </aside>
         </main>
-        <footer>
+        <footer class="footer__centered">
             &copy; Copyright 2023 - All Rights Reserved
         </footer>
     </body>
